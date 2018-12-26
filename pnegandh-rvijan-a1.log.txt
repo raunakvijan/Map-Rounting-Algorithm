@@ -1,0 +1,59 @@
+
+---- Test Case #1
+./route.py Bloomington,_Indiana Indianapolis,_Indiana bfs segments
+Congratulations! Your output  looks great! :)
+
+---- Test Case #2
+./route.py Cleveland,_Ohio Wooster,_Ohio bfs segments
+Congratulations! Your output  looks great! :)
+
+---- Test Case #4
+./route.py Cleveland,_Ohio Wooster,_Ohio uniform distance
+Your code output: yes 63 1.29 Cleveland,_Ohio Seven_Hills,_Ohio Jct_I-77_&_I-80,_Ohio Bath,_Ohio Copley,_Ohio Norton,_Ohio Wooster,_Ohio
+We expected: yes 62.0 -1 (path with 5 segments)
+Incorrect number of segments, not matching expectation
+
+---- Test Case #5
+./route.py Cleveland,_Ohio Wooster,_Ohio astar distance
+Your code output: yes 63 1.29 Cleveland,_Ohio Seven_Hills,_Ohio Jct_I-77_&_I-80,_Ohio Bath,_Ohio Copley,_Ohio Norton,_Ohio Wooster,_Ohio
+We expected: yes 62.0 -1 (path with 5 segments)
+Incorrect number of segments, not matching expectation
+
+---- Test Case #6
+./route.py Bloomington,_Indiana Wooster,_Ohio uniform distance
+Your code output: yes 316 5.96 Bloomington,_Indiana Martinsville,_Indiana Jct_I-465_&_IN_37_S,_Indiana Jct_I-65_&_I-465_S,_Indiana Jct_I-74_&_I-465_E,_Indiana Jct_I-465_&_US_52,_Indiana Jct_I-70_&_I-465_E,_Indiana Spiceland,_Indiana Richmond,_Indiana Vandalia,_Ohio Fairborn,_Ohio Springfield,_Ohio Marysville,_Ohio Delaware,_Ohio Berkshire,_Ohio Mt._Vernon,_Ohio Wooster,_Ohio
+We expected: yes 314.0 -1 (path with 17 segments)
+Incorrect number of segments, not matching expectation
+
+---- Test Case #7
+./route.py Wooster,_Ohio Bloomington,_Indiana uniform distance
+Your code output: yes 321 6.11 Wooster,_Ohio Mansfield,_Ohio Chesterville,_Ohio Berkshire,_Ohio Delaware,_Ohio Marysville,_Ohio Springfield,_Ohio Fairborn,_Ohio Vandalia,_Ohio Richmond,_Indiana Spiceland,_Indiana Rushville,_Indiana Greensburg,_Indiana Columbus,_Indiana Bloomington,_Indiana
+We expected: yes 314.0 -1 (path with 17 segments)
+Incorrect number of segments, not matching expectation
+
+---- Test Case #8
+./route.py Cleveland,_Ohio Wooster,_Ohio astar time
+Congratulations! Your output  looks great! :)
+
+---- Test Case #9
+./route.py Cleveland,_Ohio Wooster,_Ohio uniform time
+Your code output: yes 63 1.29 Cleveland,_Ohio Seven_Hills,_Ohio Jct_I-77_&_I-80,_Ohio Bath,_Ohio Copley,_Ohio Norton,_Ohio Wooster,_Ohio
+We expected: yes 62.0 -1 (path with 5 segments)
+Incorrect number of segments, not matching expectation
+
+---- Test Case #10
+./route.py Wooster,_Ohio Bloomington,_Indiana uniform time
+Congratulations! Your output  looks great! :)
+
+---- Test Case #11
+./route.py Wooster,_Ohio Bloomington,_Indiana astar time
+Congratulations! Your output  looks great! :)
+
+---- Test Case #12
+./route.py Wooster,_Ohio Bloomington,_Indiana bfs time
+Congratulations! Your output  looks great! :)
+
+---- Test Case #13
+./route.py Wooster,_Ohio Bloomington,_Indiana bfs distance
+Congratulations! Your output  looks great! :)
+Passed  8  of 13 tests (1 given free)
